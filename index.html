@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Prapti Sharma</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -43,74 +45,54 @@
 
             <p>
                 I am familiar with the basics of web development and am eager
-                to expand my knowledge and skills in this field. I don't have
-                much experience yet and I am still working on my first projects,
-                but I am committed to improving and learning continuously.
+                to expand my knowledge and skills in this field. I am still
+                working on my first projects, but I am committed to improving
+                and learning continuously.
             </p>
+
+            <a class="button-link" href="#projects-section">View Projects</a>
+            <a class="button-link" href="#contact-section">Contact Me</a>
         </section>
 
+        <hr>
 
         <!-- About Section -->
         <section id="about-section" class="about-section">
-
             <h2>About Me</h2>
 
             <div class="about-content">
+                <img src="images/prapti.jpeg" alt="Prapti Sharma">
 
                 <p>
                     I am a B.Tech CSE student with a passion for web development
                     and problem-solving. I am currently learning HTML, CSS, and
-                    JavaScript to enhance my skills in building interactive and
-                    responsive web applications.
+                    JavaScript to build interactive and responsive websites.
                 </p>
 
                 <p>
-                    <strong>Currently:</strong>
-                    Learning HTML, CSS, and JavaScript and building projects
-                    that help me apply what I've learned.
+                    <strong>Currently:</strong> Learning HTML, CSS, and
+                    JavaScript and building projects to apply what I have learned.
                 </p>
 
-                <a href="#projects-section">View Projects</a>
-                <a href="#contact-section">Contact Me</a>
+                <p>
+                    My strengths include attention to detail, problem-solving,
+                    and a commitment to continuous learning.
+                </p>
 
+                <p>
+                    My goal is to grow as a developer and gain practical
+                    experience through projects and internships.
+                </p>
             </div>
-
-            <img src="images/prapti.jpeg" alt="Prapti Sharma" style="height: 200px; width: 200px; border-radius: 50%;">
-
-            <p>
-                My name is Prapti Sharma, and I am a passionate web developer
-                with a strong foundation in computer science. I enjoy creating
-                dynamic and user-friendly websites.
-            </p>
-
-            <p>
-                My strengths include attention to detail, problem-solving
-                abilities, and a commitment to continuous learning in the field
-                of web development.
-            </p>
-
-            <p>
-                My goal is to continue growing as a developer and making a
-                positive impact in the tech industry. I prefer learning through
-                hands-on experience and real-world applications.
-            </p>
-
-            <p>
-                At the moment, I am focused on building a strong foundation in
-                web development and gaining practical experience through
-                personal projects and internships.
-            </p>
-
         </section>
 
+        <hr>
 
         <!-- Skills Section -->
         <section id="skills-section" class="skills-section">
+            <h2>My Skills</h2>
 
-            <h2>Skills</h2>
-
-            <table border="1" cellpadding="10" cellspacing="0">
-
+            <table>
                 <caption>My Skills and Proficiency</caption>
 
                 <thead>
@@ -121,186 +103,125 @@
                 </thead>
 
                 <tbody>
-
                     <tr>
                         <td>HTML</td>
                         <td>Intermediate</td>
                     </tr>
-
                     <tr>
                         <td>CSS</td>
                         <td>Intermediate</td>
                     </tr>
-
                     <tr>
                         <td>JavaScript</td>
                         <td>Beginner</td>
                     </tr>
-
                     <tr>
                         <td>Problem Solving</td>
                         <td>Intermediate</td>
                     </tr>
-
                     <tr>
-                        <td>Git & GitHub</td>
+                        <td>Git &amp; GitHub</td>
                         <td>Beginner</td>
                     </tr>
-
                     <tr>
                         <td>Python</td>
                         <td>Familiar</td>
                     </tr>
-
                 </tbody>
-
             </table>
-
         </section>
 
+        <hr>
 
         <!-- Projects Section -->
         <section id="projects-section" class="projects-section">
-
             <h2>My Projects</h2>
 
             <p>
-                As a beginner in web development, I am currently working on
-                building my first projects to apply the skills I have learned.
-                Here are some projects I plan to work on:
+                I am working on beginner-friendly projects to practise
+                my programming and web development skills.
             </p>
 
-            <article>
+            <div class="project-list">
+                <article class="project-card">
+                    <h3>Library Management System</h3>
+                    <p>
+                        A simple application to manage books and library
+                        operations using basic Python programming.
+                    </p>
+                </article>
 
-                <h3>Library Management System</h3>
+               
 
-                <p>
-                    A simple application to manage books and library operations
-                    using basic Python programming.
-                </p>
-
-
-                <h3>To-Do List Application</h3>
-
-                <p>
-                    A simple web application to manage tasks and improve
-                    productivity.
-                </p>
-
-
-                <h3>Weather App</h3>
-
-                <p>
-                    A web application that fetches weather data from an API
-                    and displays it to the user.
-                </p>
-
-            </article>
-
+            </div>
         </section>
 
+        <hr>
 
         <!-- Education Section -->
         <section id="education-section" class="education-section">
+            <h2>My Education</h2>
 
-            <h2>Education</h2>
-
-            <article>
-
-                <h3>
-                    Bachelor of Technology in Computer Science and Engineering
-                </h3>
-
-                <p>
-                    KR Mangalam University, 2026 - Present
-                </p>
-
-
-                <h3>Senior Secondary Education</h3>
-
-                <p>
-                    Birla Shiksha Kendra School, Class 12th, Completed 2026
-                </p>
-
+            <article class="education-card">
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <p>KR Mangalam University, 2026 - Present</p>
             </article>
 
+            <article class="education-card">
+                <h3>Senior Secondary Education</h3>
+                <p>Birla Shiksha Kendra School, Class 12th, Completed 2026</p>
+            </article>
         </section>
 
+        <hr>
 
         <!-- Contact Section -->
         <section id="contact-section" class="contact-section">
-
             <h2>Contact Me</h2>
 
-            <div class="contact-form">
-
-                <form action="#" method="post">
-
+            <form action="#" method="get">
+                <div class="form-row">
                     <label for="name">Name:</label>
-                    <input type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Your Name"
-                        required>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+                </div>
 
-                    <br><br>
-
+                <div class="form-row">
                     <label for="email">Email:</label>
-                    <input type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Your Email"
-                        required>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+                </div>
 
-                    <br><br>
-
+                <div class="form-row">
                     <label for="message">Message:</label>
-                    <br>
+                    <textarea id="message" name="message"
+                              placeholder="Write your message"
+                              rows="4" required></textarea>
+                </div>
 
-                    <textarea id="message"
-                        name="message"
-                        placeholder="Your Message"
-                        rows="5"
-                        required></textarea>
-
-                    <br><br>
-
-                    <button type="submit">Send Message</button>
-
-                </form>
-
-            </div>
-
-            <br>
+                <button type="submit">Send Message</button>
+            </form>
 
             <hr>
 
             <h3>Contact Information</h3>
 
-            <a href="mailto:praptisharma158@gmail.com">
-                Email
-            </a>
-
-            <br>
-
-            <a href="https://github.com/praptisharma11">
-                GitHub
-            </a>
-
+            <div class="contact-links">
+                <a href="mailto:praptisharma158@gmail.com">Email</a>
+                <a href="https://github.com/praptisharma11"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
         </section>
 
     </main>
 
-
     <!-- Footer -->
     <footer>
-
-        <p>
-            &copy; 2026 Prapti Sharma. All rights reserved.
-        </p>
-
+        <p>&copy; 2026 Prapti Sharma. All rights reserved.</p>
     </footer>
 
-</body>
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
 
-</html> 
+</body>
+</html>
