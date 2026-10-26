@@ -1,4 +1,37 @@
+
 # Personal Portfolio Website
+
+## Project Description
+This is a basic personal portfolio website created
+using HTML and external CSS.
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Features
+- Navigation bar
+- About Me section
+- Technical Skills table
+- Projects section
+- Contact form
+- Styled buttons and hover effects
+- Back to Top button
+- Responsive layout
+
+## How to Run
+1. Download or clone this repository.
+2. Open index.html in a web browser.
+3. Make sure style.css and the images folder
+   are in the correct locations.
+
+## Author
+Prapti sharma
+
+## Purpose
+This project was created as part of a college
+Web Development Lab Assignment.
+
 
 ## Project Description
 
@@ -23,6 +56,6 @@ The main objective of this project is to create a basic portfolio webpage that p
 
 ## Author
 
-Name: Prapti Sharmma
+Name: Prapti Sharma
 Course: B.Tech CSE 
 College: K.R. Mangalam University
